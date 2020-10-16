@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android_device_samsung_star2lte-android-9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android_device_samsung_star2lte-android-9.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

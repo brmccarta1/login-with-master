@@ -1,0 +1,66 @@
+{
+  "name": "login-with",
+  "version": "1.3.2",
+  "description": "Stateless microservice for authentication with OAuth etc.",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "standard && cross-env NODE_ENV=test nyc mocha ./test/*.js",
+    "start": "node server.js",
+    "standard:fix": "standard --fix"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipp/login-with.git"
+  },
+  "keywords": [
+    "oauth",
+    "authentication",
+    "login",
+    "microservice",
+    "twitter",
+    "reddit",
+    "instagram",
+    "github",
+    "google",
+    "passport"
+  ],
+  "author": "Gerhard Preuss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lipp/login-with/issues"
+  },
+  "homepage": "https://github.com/lipp/login-with#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "jsonwebtoken": "^8.2.0",
+    "memorystore": "^1.6.0",
+    "passport": "^0.3.2",
+    "passport-apple": "^1.0.0",
+    "passport-facebook": "^2.1.1",
+    "passport-github2": "^0.1.10",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-instagram": "^1.0.0",
+    "passport-linkedin-oauth2": "^1.5.0",
+    "passport-mixer": "^1.0.1",
+    "passport-reddit": "^0.2.4",
+    "passport-spotify": "^1.0.1",
+    "passport-strategy": "^1.0.0",
+    "passport-strava": "^0.2.0",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "coveralls": "^3.0.2",
+    "cross-env": "^3.1.4",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

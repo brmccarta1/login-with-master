@@ -1,0 +1,7 @@
+{
+  "name": "login-with",
+  "type": "npm",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

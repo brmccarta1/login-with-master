@@ -1,0 +1,9 @@
+{
+  "name": "login-with-nextjs",
+  "alias": [
+    "login-with.com"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
